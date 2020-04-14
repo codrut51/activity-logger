@@ -1,0 +1,12 @@
+version: "3"
+services:
+    database:
+        image: postgres:12 # use specific version of postgress since the latest 
+                            # version has the possibility of small bugs/compatability issues
+        env_file: 
+            - database.env  # file found under the current folder 
+        volumes:
+            - database-data:/var/lib/postgresql/data/ # persists data even if the container shuts down
+
+volumes: 
+    database-data: # named volumes can be managed easier using docker-compose
