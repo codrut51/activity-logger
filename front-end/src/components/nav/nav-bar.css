@@ -1,0 +1,39 @@
+.NavBar {
+    flex: 1;
+    max-height: 70px;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+.NavBar-Button {
+    flex: 1;
+    display: flex;
+    max-width: 75px;
+    padding: 0 10px !important;
+    margin: 10px !important;
+}
+
+.NavBar-Icon {
+    flex: 1;
+    display: flex;
+    width: unset !important;
+    height: unset !important;
+    fill: var(--secondary-bg-color) !important;
+}
+
+.NavBar-Menu {
+    position: absolute;
+    width: 300px;
+    max-width: 100vw;
+    height: 300px;
+    max-height: calc(100vh - 77px);
+    top: 100%;
+    left: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px;
+    background-color: var(--secondary-color);
+}

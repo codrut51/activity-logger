@@ -16,3 +16,11 @@ code {
   margin: 0;
   padding: 0;
 }
+
+:root {
+  --primary-color: #63adf2;
+  --secondary-color: #a7cced;
+  --error-color: #af2bbf;
+  --main-bg-color: #888888;
+  --secondary-bg-color: #fff;
+}

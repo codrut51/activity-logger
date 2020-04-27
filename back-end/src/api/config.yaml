@@ -1,0 +1,9 @@
+server:
+    port: 8080
+
+database: 
+    host: "localhost" # database server
+    port: "5432" # database server port
+    user: "codrut51" # database user
+    pass: "234@#$WER" # database passwordd
+    name: "activity_log" # database name
